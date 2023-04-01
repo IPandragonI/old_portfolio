@@ -1,0 +1,121 @@
+body{
+    background: url("../public/img/mountain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    --misty-rose: #feddd3ff;
+    --tea-rose-red: #fec6c8ff;
+    --thistle: #cfb5d1ff;
+    --cool-gray: #a59ec7ff;
+    --eggplant: #43303bff;
+    --raisin-black: #302a3aff;
+    font-family: "Montserrat";
+}
+
+p{
+    font-size: 1vh;
+    letter-spacing: .2rem;
+    margin-bottom: 0;
+}
+
+a,a:hover{
+    text-decoration:none;
+    color: #000;
+}
+
+.img-fluid{
+    margin-bottom:2rem ;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    margin-bottom: 2rem !important;
+}
+span{
+    font-size: .7rem;
+}
+
+.wrapper{
+    width: 65vw;
+    height: 79vh;
+    margin: 5rem auto;
+    background-color: white;
+}
+
+img{
+    height: 5vh;
+}
+
+#Mycard{
+    height: 65vh;
+}
+#topCard{
+    width: 17vw;
+    height: 100%;
+}
+#mainCard{
+    height: 100%;
+    width: 100%;
+    margin: .7rem;
+}
+
+@media (max-width: 1100px) {
+    .wrapper {
+        width: 85vw;
+      }
+    h2{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    #Mycard{
+        height: 15vh;
+        margin-bottom: 2rem;
+    }
+    .card-body{
+        padding: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fluid{
+        height: 10vh;
+        margin-bottom: 0 !important;
+        margin-right: 1rem;
+    }
+
+    .img-fluid, h4, p{
+        margin-bottom: 0 !important;
+    }
+
+    #inside{
+        flex-direction: column;
+    }
+    h2{
+        font-size: .9rem;
+        margin-bottom: .5rem !important;
+    }
+    h4{
+        font-size: .7rem;
+    }
+    p{
+        font-size: 0.9vh;
+        letter-spacing: .1rem;
+        margin-left: 1.5rem;
+    }
+    #topCard {
+        width: 36vw;
+      }
+}
+
+@media (max-width: 530px) {
+    p{
+        font-size: 0.7vh;
+    }
+}

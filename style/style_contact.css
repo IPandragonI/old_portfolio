@@ -1,0 +1,11 @@
+img{
+    height: 20vh;
+}
+
+#content{
+    height: 50vh;
+}
+
+form{
+    display: flex;
+}

@@ -1,0 +1,61 @@
+#MyCard{
+    height: 15vh;
+}
+
+#Content{
+    height: 50vh;
+}
+
+#side{
+    height: 100%;
+}
+
+img{
+    margin: 1rem;
+}
+
+#lieu{
+    font-size: 2vh;
+}
+
+
+#square{
+    flex-basis: 25%;
+    align-items: center;
+    padding: .5rem;
+    margin: .1rem;
+}
+#formation #square{
+    flex-basis: auto;
+}
+
+.card-body:first-child{
+    padding-top: 1rem;
+}
+
+.card-body:last-child #square{
+    flex-basis: 20%;
+}
+
+#square .img-fluid{
+    height: 3vh;
+}
+
+#mp{
+    width: 2vw;
+}
+.card-body{
+    padding: .5rem;
+}
+.card-content{
+    flex-wrap: wrap;
+}
+
+.img-fluid{
+    height: 12vh;
+    margin: 0;
+}
+
+h2,h4{
+    margin: 1rem;
+}

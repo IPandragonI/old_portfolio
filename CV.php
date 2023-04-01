@@ -170,27 +170,31 @@
                 <!-- XP -->
                 <div class="card text-center border-0 shadow-lg rounded mt-2" id="Content">
                     <div class="card-body d-flex flex-column">
+                        <div class="title">
+                            <h3 class="card-title font-weight-bold text-uppercase mt-3 mb-4">Expériences</h3>
+                        </div>
+
                         <div class="d-flex align-items-center">
                             <div class="card text-center border-0 shadow-lg rounded mt-2" id="centerBox">
-                                <h4 class="mb-3">2023 - Stage développement web chez colombier-communication</h4>
+                                <p id="lieu" class="mb-3"><b>2023</b> - Stage développement web chez colombier-communication</p>
                             </div>
                             <img src="public/img/php.png">
                         </div>
                         <div class="d-flex align-items-center">
                             <div class="card text-center border-0 shadow-lg rounded mt-2" id="centerBox">
-                                <h4 class="mb-3">2023 - Projet tutoré refonte de site web complexe</h4>
+                                <p id="lieu" class="mb-3"><b>2023</b> - Projet tutoré refonte de site web complexe</p>
                             </div>
                             <img src="public/img/symfony.png">
                         </div>
                         <div class="d-flex align-items-center">
                             <div class="card text-center border-0 shadow-lg rounded mt-2" id="centerBox">
-                                <h4 class="mb-3">2022 - Projet tutoré développement d’application</h4>
+                                <p id="lieu"class="mb-3"><b>2022</b> - Projet tutoré développement d’application</p>
                             </div>
                             <img src="public/img/php.png">
                         </div>
                         <div class="d-flex align-items-center">
                             <div class="card text-center border-0 shadow-lg rounded mt-2" id="centerBox">
-                                <h4 class="mb-3">2022 - Merchandiseur (Super U Vaison-la-Romaine, JusteBio)</h4>
+                                <p id="lieu" class="mb-3"><b>2022</b> - Merchandiseur (Super U Vaison-la-Romaine, JusteBio)</p>
                             </div>
                             <img src="public/img/juste.png">
                         </div>

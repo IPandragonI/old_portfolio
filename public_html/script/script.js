@@ -1,6 +1,6 @@
 function displayCard() {
-    const cardBody = document.querySelector('.card-body');
-    const title = cardBody.querySelector('.card-title');
+    const cardBody = document.querySelector(".card-body");
+    const title = cardBody.querySelector(".card-title");
     
     if (window.innerWidth < 768) {
       cardBody.style.display = 'flex';
@@ -9,8 +9,8 @@ function displayCard() {
     }
   }
   
-  window.addEventListener('resize', displayCard);
-  displayCard();
+window.addEventListener('resize', displayCard);
+displayCard();
 
 
 

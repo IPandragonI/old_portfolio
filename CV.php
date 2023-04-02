@@ -29,16 +29,16 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Portfolio</a>
+                                <a class="nav-link" href="index.php">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="projet.html">Mes projets</a>
+                                <a class="nav-link" href="projet.php">Mes projets</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="CV.html">Mon CV</a>
+                                <a class="nav-link" href="CV.php">Mon CV</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </div>

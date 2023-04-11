@@ -1,19 +1,3 @@
-function displayCard() {
-    const cardBody = document.querySelector(".card-body");
-    const title = cardBody.querySelector(".card-title");
-    
-    if (window.innerWidth < 768) {
-      cardBody.style.display = 'flex';
-    } else {
-      cardBody.style.display = 'block';
-    }
-  }
-  
-window.addEventListener('resize', displayCard);
-displayCard();
-
-
-
 function validateForm() {
     let name =  document.getElementById('name').value;
     if (name === "") {

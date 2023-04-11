@@ -51,7 +51,7 @@
     <!-- Main content -->
 
     <!--Section: Contact v.2-->
-    <section class="mb-4">
+    <div class="card text-center border-0 shadow-lg rounded p-2 mb-4">
 
         <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">Me contacter</h2>
@@ -81,7 +81,7 @@
                         <!--Grid column-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
+                                <input type="email" id="email" name="email" class="form-control">
                                 <label for="email" class="">Mail</label>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
 
         </div>
 
-    </section>
+    </div>
 </div>
 </body>
 

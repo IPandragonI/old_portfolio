@@ -74,10 +74,60 @@
             <!-- Right card -->
             <div class="col-md-7">
                 <!-- Top of the place -->
-                <section>
+                <section class="d-flex flex-column">
                     <div class="row justify-content-around">
-                        <a href="https://www.instagram.com/mathys.frn" target="_blank">
-                            <div class="card text-center border-0 shadow-lg rounded p-2" id="topCard">
+
+                        <div class="card text-center border-0 shadow-lg rounded p-2" id="topCard">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div class="media d-flex">
+                                        <div class="media-body text-left">
+                                            <h3>19 ans</h3>
+                                            <span>28/09/2003</span>
+                                        </div>
+                                        <div class="align-self-center">
+                                            <img src="public/img/cake.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card text-center border-0 shadow-lg rounded p-2" id="topCard">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div class="media d-flex">
+                                        <div class="align-self-center">
+                                            <img src="public/img/email.png">
+                                        </div>
+                                        <div class="media-body text-right">
+                                            <h3>mathysf84pro</h3>
+                                            <span>@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card text-center border-0 shadow-lg rounded p-2 mt-2" id="topCard">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <div class="media d-flex">
+                                        <div class="media-body text-left">
+                                            <h3>Avignon</h3>
+                                            <span>Vaucluse (84)</span>
+                                        </div>
+                                        <div class="align-self-center">
+                                            <img src="public/img/map.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card text-center border-0 shadow-lg rounded p-2 mt-2" id="topCard">
+                            <a href="https://www.instagram.com/mathys.frn" target="_blank">
                                 <div class="card-content">
                                     <div class="card-body">
                                         <div class="media d-flex">
@@ -91,46 +141,14 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-
-                        <div class="card text-center border-0 shadow-lg rounded p-2" id="topCard">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="media d-flex">
-                                        <div class="align-self-center">
-                                            <img src="public/img/iut.png">
-                                        </div>
-                                        <div class="media-body text-right">
-                                            <h3>IUT de Valence</h3>
-                                            <span>2e année de BUT Informatique</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                </section>
 
-                <!-- Down of the place -->
-                <section>
-                    <div class="row">
-                        <div class="card text-center border-0 shadow-lg rounded p-2" id="mainCard">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="media d-flex">
-                                        <div class="align-self-center">
-                                            <img src="public/img/mountain.png">
-                                        </div>
-                                        <div class="media-body text-right">
-                                            <h3>278</h3>
-                                            <span>New Posts</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row justify-content-around mt-5" id="down">
+                        <img src="public/img/ventoux.png" id="ventoux">
                     </div>
+
                 </section>
             </div>
         </div>

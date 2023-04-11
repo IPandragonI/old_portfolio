@@ -47,6 +47,10 @@ img{
     height: 5vh;
 }
 
+#ventoux{
+    height: 30vh;
+}
+
 #Mycard{
     height: 65vh;
 }
@@ -59,6 +63,8 @@ img{
     width: 100%;
     margin: .7rem;
 }
+
+
 
 @media (max-width: 1100px) {
     .wrapper {
@@ -80,10 +86,15 @@ img{
     }
     .card-body{
         padding: 0;
+        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
+    #topCard .card-body{
+        justify-content: space-between;
+    }
+
     .img-fluid{
         height: 10vh;
         margin-bottom: 0 !important;

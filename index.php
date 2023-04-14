@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -48,22 +49,28 @@
     </div>
 
     <!-- Main content -->
-    <div class="container-fluid">
-        <div class="row m-3" id="inside">
+    <div class="container-fluid" style="height: 90%;">
+        <div class="row m-3 h-100" id="inside">
             <!-- Left card -->
-            <div class="col-md-5">
-                <div class="row">
+            <div class="col-md-5 h-100">
+                <div class="row h-100">
                     <div class="col">
                         <a href="CV.php">
                             <div class="card text-center border-0 shadow-lg rounded p-4" id="Mycard">
                                 <div class="card-body">
-                                    <img src="public/img/moi.png" class="img-fluid" alt="Image de profil">
-                                    <div class="title">
-                                        <h2 class="card-title font-weight-bold text-uppercase">Mathys Farineau</h2>
-                                        <h4 class="card-text">Développeur web</h4>
+                                    <div class="h-50 mb-4">
+                                        <img src="public/img/moi.png" class="img-fluid" alt="Image de profil">
                                     </div>
-                                    <p class="font-weight-light">Passionné de l'informatique depuis mon plus jeune âge.
-                                        J'adore le design et la conception de sites web.</p>
+                                    <div class="h-50">
+                                        <div class="title h-50">
+                                            <h2 class="card-title font-weight-bold text-uppercase">Mathys Farineau</h2>
+                                            <h4 class="card-text">Développeur web</h4>
+                                        </div>
+                                        <div class="h-50">
+                                            <p class="font-weight-light">Passionné de l'informatique depuis mon plus jeune âge.
+                                            J'adore le design et la conception de sites web.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -72,15 +79,15 @@
             </div>
 
             <!-- Right card -->
-            <div class="col-md-7">
+            <div class="col-md-7 h-100">
                 <!-- Top of the place -->
-                <section class="d-flex flex-column">
-                    <div class="row justify-content-around">
+                <section class="d-flex flex-column h-100">
+                    <div class="row justify-content-around h-25">
 
                         <div class="card text-center border-0 shadow-lg rounded p-2" id="topCard">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="media d-flex">
+                            <div class="card-content h-100">
+                                <div class="card-body h-100">
+                                    <div class="media d-flex h-100 align-items-center">
                                         <div class="media-body text-left">
                                             <h3>19 ans</h3>
                                             <span>28/09/2003</span>
@@ -94,9 +101,9 @@
                         </div>
 
                         <div class="card text-center border-0 shadow-lg rounded p-2" id="topCard">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="media d-flex">
+                            <div class="card-content h-100">
+                                <div class="card-body h-100">
+                                    <div class="media d-flex h-100 align-items-center">
                                         <div class="align-self-center">
                                             <img src="public/img/email.png">
                                         </div>
@@ -110,9 +117,9 @@
                         </div>
 
                         <div class="card text-center border-0 shadow-lg rounded p-2 mt-2" id="topCard">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="media d-flex">
+                            <div class="card-content h-100">
+                                <div class="card-body h-100">
+                                    <div class="media d-flex h-100 align-items-center">
                                         <div class="media-body text-left">
                                             <h3>Avignon</h3>
                                             <span>Vaucluse (84)</span>
@@ -127,11 +134,11 @@
 
 
                         <div class="card text-center border-0 shadow-lg rounded p-2 mt-2" id="topCard">
-                            <a href="https://www.instagram.com/mathys.frn" target="_blank">
-                                <div class="card-content">
-                                    <div class="card-body">
-                                        <div class="media d-flex">
-                                            <div class="align-self-center">
+                            <a href="https://www.instagram.com/mathys.frn" target="_blank" class="h-100">
+                                <div class="card-content h-100">
+                                    <div class="card-body h-100">
+                                        <div class="media d-flex h-100 align-items-center">
+                                            <div class="align-items-center">
                                                 <img src="public/img/insta.png">
                                             </div>
                                             <div class="media-body text-right">
@@ -145,8 +152,10 @@
                         </div>
                     </div>
 
-                    <div class="row justify-content-around mt-5" id="down">
-                        <img src="public/img/ventoux.png" id="ventoux">
+                    <div class="row justify-content-around h-75" id="down">
+                        <div class="w-100 d-flex justify-content-center align-items-center" style="height:90%">
+                            <img src="public/img/ventoux.png" id="ventoux">
+                        </div>
                     </div>
 
                 </section>
